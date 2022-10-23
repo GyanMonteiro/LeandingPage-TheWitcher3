@@ -1,0 +1,106 @@
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    background-color: black;
+}
+.home{
+    overflow-y: hidden;
+    height: 100vh;
+    background-image: url(../img/Home/Background1.png);
+    background-repeat: no-repeat;
+}
+.nav{
+    position: fixed;
+    display: flex;
+    left: 15%;
+    top: 1%;
+}
+.nav img{
+    width: 3%;
+}
+.logo-cd{
+    position: absolute;
+    width: 8%;
+    left: 85%;
+    top: 2%;
+}
+.links{
+    display: flex;
+    text-decoration: none;
+}
+.img-logo{
+    position: absolute;
+    width: 35%;
+    top: 15%;
+    left: 20%;
+}
+.home-container{
+    width: 100vw;
+}
+.home-container p {
+    position: absolute;
+    font-family: DinItalic;
+    font-size: 20px;
+    top: 50%;
+    left: 25%;
+    text-align: center;
+    width: 25%;
+    color: #ffff;
+}
+.ciri{
+    position: absolute;
+    transform: translate(250%,-0%);
+}
+.home-container button{
+    position: absolute;
+    font-family: TheWitcher;
+    width: 15%;
+    font-size: 20px;
+    color: #ffff;
+    padding: 10px;
+    transform: translate(-13em, 25em);
+    margin: 20px;
+}
+.home-container button:hover{
+    cursor:pointer;
+}
+.order{
+    background-color: #BF0A1B;
+    border: none;
+    left: 37%;
+}
+.trailer{
+    border: 1px solid #ffff;
+    background-color: transparent;
+    left: 54%;
+}
+.links{
+    z-index: 1;
+    gap: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+a{
+    color: #ffff;
+    text-decoration: none;
+    font-family: TheWitcher;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

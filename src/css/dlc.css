@@ -1,0 +1,59 @@
+*{
+    overflow-x: hidden;
+}
+.dlc{
+    background-image: url(../img/DLC/background1.png);
+}
+h1{
+    position: relative;
+    font-size: 40px;
+    color: #fff;
+    font-family: TheWitcher;
+    text-align: center;
+    margin: 2%;
+    top: 10px;
+}
+
+.dlc-img{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+.dlc-img img{
+    width: 390px;
+    border-radius: 10px;
+}
+.dlc-bio{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 100px;
+}
+.dlc-bio p {
+    color: #fff;
+    font-family: DinItalic;
+    font-size: 24px;
+    width: 25%;
+}
+.dlc button {
+    font-family: TheWitcher;
+    width: 15%;
+    font-size: 20px;
+    color: #ffff;
+    padding: 10px;
+    margin: 20px;
+    margin-bottom: 2.5%;
+    background-color: #BF0A1B;
+    border: none;
+}
+.dlc button:hover{
+    cursor:pointer;
+}
+.button-hearts{
+    position: relative;
+    left: 25%;
+}
+.button-blood{
+    position: relative;
+    left: 40%;
+}

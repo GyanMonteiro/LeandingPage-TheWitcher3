@@ -1,0 +1,30 @@
+.hunter{
+    background-image: url(../img/Hunter/bg-monsterhunter-d8513bf6.png);
+}
+.hunter img{
+    width: 660px;
+    border-radius: 10px;
+    margin-left: 5%;
+}
+.hunter p {
+    color: #fff;
+    font-family: DinItalic;
+    font-size: 24px;
+    width: 30%;
+    margin-left: 50px;
+}
+.hunter-container{
+    position: relative;
+    display: flex;
+    margin-bottom: 7%;
+    left: 4em;
+}
+.galery-hunter{
+    position: relative;
+    bottom: 5em;
+    left: 37%;
+}
+.galery-hunter img{
+    width: 290px;
+    cursor: pointer;
+}

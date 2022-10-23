@@ -1,0 +1,29 @@
+.open-world{
+    background-image: url(../img/OpenW/bg-openworld-3d5e7405.png);
+}
+
+
+.open-world img{
+    width: 660px;
+    border-radius: 10px;
+    margin-left: 5%;
+}
+.open-world p {
+    color: #fff;
+    font-family: DinItalic;
+    font-size: 24px;
+    width: 30%;
+    margin-left: 50px;
+}
+.openw-container{
+    display: flex;
+    margin-bottom: 7%;
+}
+.galery{
+    position: relative;
+    bottom: 5em;
+}
+.galery img{
+    width: 290px;
+    cursor: pointer;
+}
