@@ -13,7 +13,6 @@ const thumbHunter1 = document.querySelector(".thumb-hunter1");
 const thumbHunter2 = document.querySelector(".thumb-hunter2");
 const thumbHunter3 = document.querySelector(".thumb-hunter3");
 
-window.history.pushState("", "", "/");
 
 thumbHunter1.addEventListener("click", function () {
   mainHunter.setAttribute("src", "src/img/Hunter/monsterhunter-hunts-1.jpg");
