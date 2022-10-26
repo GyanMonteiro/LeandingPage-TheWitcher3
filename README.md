@@ -5,9 +5,9 @@
 
 # Leanding Page: The witcher 3
 
-| :placard: Vitrine.Dev |     |
+| :computer: Vitrine.Dev |     |
 | -------------  | --- |
-| :sparkles: Nome        | **Frontweek: Hollow Knight**
+| :sparkles: Nome        | **Leanding Page: The Witcher 3**
 | :label: Tecnologias | HTML, CSS, Javascript, Figma
 | :rocket: URL         | https://gyanmonteiro.github.io/LeandingPage-TheWitcher3/
 
