@@ -10,8 +10,10 @@
     color: #fff;
     font-family: DinItalic;
     font-size: 24px;
-    width: 30%;
-    margin-left: 50px;
+    padding: 20px 0;
+    width: 80%;
+    transform: translate(15%);
+
 }
 .hunter-container{
     position: relative;
@@ -22,9 +24,17 @@
 .galery-hunter{
     position: relative;
     bottom: 5em;
-    left: 37%;
+    left: 25%;
 }
 .galery-hunter img{
+    height: 180px;
     width: 290px;
     cursor: pointer;
+}
+.text-hunter{
+    width: 45%;
+    height: 10%;
+    background: url(../img/OpenW/background.png);
+    border: 1px solid transparent;
+    border-image: url(../img/OpenW/borda.png) 1;
 }

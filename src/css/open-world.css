@@ -12,7 +12,7 @@
     color: #fff;
     font-family: DinItalic;
     font-size: 24px;
-    width: 30%;
+    padding: 20px 0;
     margin-left: 50px;
 }
 .openw-container{
@@ -24,6 +24,21 @@
     bottom: 5em;
 }
 .galery img{
+    height: 180px;
     width: 290px;
     cursor: pointer;
+}
+.selecionado-openw{
+    border: 3px rgba(255,255,255,0.40) solid;
+}
+.text-openw{
+    transform: translate(5%,0%);
+    width: 45%;
+    height: 10%;
+    background: url(../img/OpenW/background.png) repeat-y;
+    border: 1px solid transparent;
+    border-image: url(../img/OpenW/borda.png) 1;
+}
+.selecionado-hunter{
+    border: 3px rgba(255,255,255,0.40) solid;
 }

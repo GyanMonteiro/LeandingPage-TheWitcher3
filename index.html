@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/css/home.css">
-    <link rel="stylesheet" href="src/css/dlc.css">
+    <link rel="stylesheet" href="src/css/dlc.css" >
     <link rel="stylesheet" href="src/css/open-world.css">
     <link rel="stylesheet" href="src/css/hunter.css">
     <style>
@@ -18,39 +18,39 @@
             src: url(src/fonts/mason-serif-regular.otf);
         }
     </style>
-    <title>Document</title>
+    <title>The Witcher 3</title>
 </head>
 <body>
     <main>
-        <section class="home">
+        <section class="home" id="home">
             <div class="nav">
                 <img src="src/img/Home/symbol.png" alt="" class="symbol">
                 <ul class="links">
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#expension">EXPENSION PACK</a></li>
-                    <li><a href="#open-world">OPEN WORLD</a></li>
-                    <li><a href="#hunter">HUNTER</a></li>
+                    <li><a href="#" id="button-home">HOME</a></li>
+                    <li><a href="#expansion" id="button-dlc">EXPENSION PACK</a></li>
+                    <li><a href="#open-world" id="button-openw">OPEN WORLD</a></li>
+                    <li><a href="#hunter" id="button-hunter">HUNTER</a></li>
                 </ul>
             </div>
             <img src="src/img/Home/LogoCD.png" alt="" class="logo-cd">
             <div class="home-container">
                 <img src="src/img/Home/Ciri1.png" alt="" class="ciri">
                 <img src="src/img/Home/logo1.png" alt="" class="img-logo">
-                <p>Torne-se o caçador de monstros Geralt de Rívia e participe do contrato mais importante de sua vida - encontrar a Filha da Profecia, uma arma viva que pode alterar a forma do mundo</p>
-                <button class="order"><a href="https://store.playstation.com/pt-br/product/UP4497-CUSA00527_00-0000000000000002">ORDER NOW</a></button>
+                <p>Become monster slayer Geralt of Rivia and take on the most important contract of your life — tracking down the Child of Prophecy, a living weapon that can alter the shape of the world.</p>
+                <button class="order"><a href="https://buy.thewitcher.com/en_br/">ORDER NOW</a></button>
                 <button class="trailer"><a href="https://youtu.be/XHrskkHf958">WATCH TRAILER</a>
                     </button>
             </div>
         </section>
-        <section class="dlc" id="expension">
+        <section class="dlc" id="expansion">
             <h1 >EXPENSION PACKS</h1>
             <div class="dlc-img">
                 <img src="src/img/DLC/Hearts-of-Stone.jpg" alt="">
-                <img src="src/img/DLC/Bloof-and-Wine.jpg" alt="">
+                <img src="src/img/DLC/Blood-and-Wine.jpg" alt="">
             </div>
             <div class="dlc-bio">
-                <p class="Hearts">Torne-se Geralt de Rívia, um matador de monstros profissional contratado para derrotar um impiedoso capitão bandido: Olgierd von Everec, um homem que possui o poder da imortalidade.</p>
-                <p>Bem-vindo à terra do verão, um vale remoto intocado pela guerra. A terra de cavaleiros errantes, nobres damas e vinícolas magníficas. Que época melhor para visitar se não agora, quando este reino virtuoso é despedaçado por uma série de massacres selvagens.</p>
+                <p class="Hearts">Step again into the shoes of Geralt of Rivia, a professional monster slayer, this time hired to defeat a ruthless bandit captain, Olgierd von Everec — a man who possesses the power of immortality.</p>
+                <p>Welcome to the land of summer, a remote valley untouched by war. The land of wandering knights, noble ladies and magnificent wineries. What better time to visit than now, when this kingdom of virtue is torn apart by a series of savage massacres.</p>
             </div>
                 <button class="button-hearts"><a href="https://store.playstation.com/pt-br/product/UP4497-CUSA00527_00-0000000000DLCEP1">ORDER NOW</a></button>
                 <button class="button-blood"><a href="https://store.playstation.com/pt-br/product/UP4497-CUSA00527_00-0000000000DLCBOB">ORDER NOW</a></button>
@@ -58,25 +58,32 @@
         <section class="open-world" id="open-world">
             <h1>OPEN WORLD</h1>
             <div class="openw-container">
-                <img src="src/img/OpenW/openworld-exploration-1.jpg" alt="">
-            <p>In the open world of Wild Hunt, you chart your own path to adventure. You play as a bounty hunter, a man of the road. You set your own goals and choose your own destinations. Go after the bounty on the head of a nasty monster pestering a village or help a scheming prince who needs a dirty job done -- no matter what style of epic questing you crave, The Witcher will provide it.</p>
+                <img src="src/img/OpenW/openworld-exploration-1.jpg" alt="" class="main-openw">
+            <div class="text-openw">
+                <p>In the open world of Wild Hunt, you chart your own path to adventure. You play as a bounty hunter, a man of the road. You set your own goals and choose your own destinations. Go after the bounty on the head of a nasty monster pestering a village or help a scheming prince who needs a dirty job done -- no matter what style of epic questing you crave, The Witcher will provide it.</p>
+            </div>
             </div>
             <div class="galery">
-                <img src="src/img/Hunter/monsterhunter-hunts-2.jpg" alt="">
-                <img src="src/img/OpenW/openworld-exploration-3.jpg" alt="">
+                <img src="src/img/OpenW/openworld-exploration-1.jpg" alt="" class="thumb-openw1 selecionado-openw">
+                <img src="src/img/OpenW/openworld-exploration-2.jpg" alt="" class="thumb-openw2">
+                <img src="src/img/OpenW/openworld-exploration-3.jpg" alt="" class="thumb-openw3">
             </div>
         </section>
         <section class="hunter" id="hunter">
             <h1>PROFESSIONAL HUNTER</h1>
             <div class="hunter-container">
-                <p>Witchers are mutants, men subjected to gruelling training and flesh-altering experiments that prepare them for one purpose: to kill monsters. Geralt was forged at the elite School of the Wolf and is considered one of the deadliest witchers ever trained. He possesses superhuman reflexes and strength, and his sword fighting skills are second to none.</p>
-                <img src="src/img/Hunter/monsterhunter-hunts-1.jpg" alt="">
+                <div class="text-hunter">
+                    <p>Witchers are mutants, men subjected to gruelling training and flesh-altering experiments that prepare them for one purpose: to kill monsters. Geralt was forged at the elite School of the Wolf and is considered one of the deadliest witchers ever trained. He possesses superhuman reflexes and strength, and his sword fighting skills are second to none.</p>
+                </div>
+                <img src="src/img/Hunter/monsterhunter-hunts-1.jpg" alt="" class="main-hunter">
             </div>
             <div class="galery-hunter">
-                <img src="src/img/Hunter/monsterhunter-hunts-2.jpg" alt="">
-                <img src="src/img/Hunter/monsterhunter-mutations-1.jpg" alt="">
+                <img src="src/img/Hunter/monsterhunter-hunts-1.jpg" alt="" class="thumb-hunter1 selecionado-hunter">
+                <img src="src/img/Hunter/monsterhunter-hunts-2.jpg" alt="" class="thumb-hunter2 ">
+                <img src="src/img/Hunter/monsterhunter-allies-2.jpg" alt="" class="thumb-hunter3 ">
             </div>
         </section>
     </main>
+    <script src="src/js/index.js"></script>
 </body>
 </html>
